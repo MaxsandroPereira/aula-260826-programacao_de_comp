@@ -2,6 +2,12 @@
 #faça um sistema de média, aplicando duas notas e exibindo o valor da média. Também diga 
 #se o aluno está reprovado, em recuperação ou aprovado.
 
+
+maxnota = 0
+minnota = 0
+
+# /////////////////////////////////////////////////////
+
 print("##Sistema de média através das notas##")
 nota1 =float(input("Digite a primeira nota: "))
 nota2 = float(input("Digite a segunda nota: "))
@@ -45,8 +51,6 @@ while resposta == "s":
     resposta = input("s/n: ")
 
 print("Programa encerrado.")
-
-
 
 
 #desafio concluido
